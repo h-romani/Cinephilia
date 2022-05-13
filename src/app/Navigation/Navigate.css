@@ -1,0 +1,55 @@
+*,*::after,*::before{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+   color: black;
+}
+
+
+.nav{
+  background-color: #e4e0e0;
+  padding: 25px;
+  display: flex;
+  justify-self: space-around;
+  align-items: center;
+  
+}
+
+.menu{
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2.7rem;
+  font-size: 22px;
+  padding: 50px;
+}
+
+a:hover{
+  color: #925E2E;
+}
+
+.logo-img{
+  display: flex;
+  margin-left: 60px;
+  margin-right: auto;
+}
+
+.ms-auto.navbar-nav{
+  margin-left: auto !important;
+  color: black  !important;
+  
+
+}
+
+.nav-link{
+  color: black !important;
+  font-weight: bold;
+}

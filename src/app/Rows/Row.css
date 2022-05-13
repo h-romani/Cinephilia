@@ -1,0 +1,328 @@
+
+.display {
+  overflow-x: hidden;
+}
+
+
+
+/* row attributes consisting of movies, cast, and grid */
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row_cast {
+
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.row_posters{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  
+  margin-left: 4%;
+  margin-right: 5%;
+  
+}
+
+.row_posters::-webkit-scrollbar {
+  width: 0px;
+}
+
+.row_posters::-webkit-scrollbar-button {
+  width: 10%;
+  
+}
+
+.row_posters::-webkit-scrollbar-thumb:hover {
+  background: rgb(15, 32, 39);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border-radius: 100px;
+  
+  
+}
+
+.row_posters2 {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  margin-left: 4%;
+  margin-right: 5%;
+  
+}
+
+.row_posters2::-webkit-scrollbar {
+  
+  width: 0px;
+  height: 20px;
+  
+}
+
+.row_posters2::-webkit-scrollbar-button {
+  
+  width: 5%;
+  
+}
+
+.row_posters2::-webkit-scrollbar-track{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row_posters2::-webkit-scrollbar-thumb:hover {
+  background: rgb(15, 32, 39);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border-radius: 100px;
+
+}
+
+
+
+.post_custom{
+  object-fit: contain;
+  width: 200px;
+  height: calc(200px * (16/9));
+  margin-right: 15px;
+  margin-left: 10px;
+  transition: transform 450ms;
+}
+
+.post_custom:hover{
+  transform:  scale(1.08);
+}
+
+.post_custom_cast {
+  object-fit: contain;
+  width: 200px;
+  height: calc(200px * (16/9));
+  margin-right: 30px;
+  margin-left: 50px;
+  border-radius: 32px;
+  transition: transform 450ms;
+}
+
+.post_custom_cast:hover {
+  transform: scale(1.08);
+}
+
+span{
+  color: #A0A0A0;
+  content: "\a";
+  white-space: pre;
+}
+
+
+
+
+
+
+
+
+.list-video-cast-div button:hover {
+  color: white;
+}
+
+
+
+@media (min-width: 760px){
+
+  .list-video-cast-div button {
+    padding: 0.70rem 1.5rem;
+    border: 2.5px solid white;
+    position: relative;
+    max-width: 100%;
+    width: 220px;
+    border-radius: 100px;
+    margin-top: 2%;
+    margin-left: 12%;
+    
+    color: #fff;
+  }
+  
+}
+
+@media(max-width: 1000px) and (min-width: 761px){
+
+  .list-video-cast-div button {
+      
+      
+      
+      width: 220px;
+      
+      margin-top: 2%;
+      margin-left: 35%;
+  
+      color: #fff;
+    }
+
+
+}
+
+@media(max-width: 1075px) and (min-width: 1001px) {
+  .list-video-cast-div button {
+    
+    
+    
+    width: 220px;
+
+    margin-top: 2%;
+    margin-left: 40%;
+
+    color: #fff;
+  }
+
+
+
+}
+
+.modal-content {
+    float:left;
+
+}
+
+.video-modal .modal-dialog{
+  margin: 1.75rem auto;
+}
+
+.cast-modal .modal-dialog{
+  margin: 1.75rem auto;
+  max-width: 100%;
+}
+
+@media (min-width: 992px){ .cast-modal .modal-lg,
+.modal-xl {
+  max-width: 1500px;
+}
+}
+
+
+
+.row_posters3{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.row_posters3 p{
+  justify-content: center;
+  display: block;
+  
+}
+
+.row_posters3{
+  content: "";
+  display: block;
+}
+
+.row_posters3 button{
+  display: flex;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.hovertitle:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+p{
+
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.filler-poster {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.dropdown-basic-button{
+  padding: 40px;
+  
+}
+
+.dropdown-basic-button button{
+  font-size:1.65em;
+  text-transform: none;
+  background-color: #345c8c;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle{
+  background-color: #345c8c;
+}
+
+.button-tooltip p{
+  text-align: center;
+  padding: 2px;
+  margin-bottom: 5px;
+}
+
+.button-tooltip-layout{
+  padding-bottom: 0.10px;
+}
+
+.button-tooltip-layout p{
+  
+  text-align: center;
+  padding: 2px;
+  margin-bottom: 5px;
+}
+
+.view-more-style{
+  margin-bottom: 45px;
+  
+}
+
+.btn-primary{
+  background-color: #345c8c;
+  border-color: #2c5364;
+}
+
+.view-more-style button{
+  
+  display: flex;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.movies-page-title{
+    margin-left: 10px;
+    padding: 40px;
+    
+}
+
+.movies-page-title h2{
+  font-weight: bold;
+  font-size: 2.1rem;
+}
+
+.temp{
+  display: flex;
+}
+
+.jo p{
+  margin-right: 10%;
+  margin-left: 5%;
+}

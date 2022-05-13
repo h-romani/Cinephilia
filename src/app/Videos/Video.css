@@ -1,0 +1,26 @@
+
+.video-responsive iframe{
+    width: 43%;
+    height: 50%;
+    position: absolute;
+    top: 900px;
+    bottom: 0;
+    left: 830px;
+    margin: auto;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.contained-modal-title-vcenter{
+    margin: 0 auto;
+    
+}
+
+.modal-content{
+    background-color: rgb(15, 32, 39);
+    padding: 5px;
+}
+
+.btn-close{
+    display: none;
+}

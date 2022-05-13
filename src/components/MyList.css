@@ -1,0 +1,11 @@
+.organize-media {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 70px;
+
+}
+
+.organize-media::-webkit-scrollbar {
+  display: none;
+}

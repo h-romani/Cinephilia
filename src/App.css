@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* button edit for late */
+
+
+
+.btn {
+
+  color:white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  line-height: 1.1;
+}
+
+
+.extra-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: #1892bd;
+  opacity: 1;
+  cursor: pointer;
+  
+}
+
+.btn:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.count-pill {
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 3%;
+}
+
+
+/* ************** */
+
+.media-poster .overLay-overRow{
+  display: inline;
+  background-color: red;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 3px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.media-poster:hover .overLay-overRow {
+  opacity: 1;
+}
+
+.control-btn {
+  color: #fefefe;
+  background-color: transparent;
+  border: none;
+  transition: all 0.3s ease;
+  font-size: 1.25rem;
+  padding: 5px;
+  margin: 0;
+}
+
+.control-btn:hover {
+  color: var(--secondary);
+  cursor: pointer;
+}

@@ -1,0 +1,75 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Hahmlet',
+    serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* background: rgb(15, 32, 39);
+  background: linear-gradient(30deg, rgba(15, 32, 39, 1) 0%, rgba(19, 45, 78, 1) 0%, rgba(32, 58, 67, 1) 51%, rgba(15, 32, 39, 1) 100%, rgba(44, 83, 100, 1) 100%); */
+  /* background: #0F2027;
+  
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+
+  background: rgb(15, 32, 39);
+  background: linear-gradient(100deg, rgba(15, 32, 39, 1) 0%, rgba(19, 45, 78, 1) 0%, rgba(32, 58, 67, 1) 60%, rgba(44, 83, 100, 1) 100%);
+  }
+
+  h1{
+    color: white;
+  }
+
+  h2{
+    color: white;
+  }
+
+  p{
+    color: white;
+  }
+
+
+
+.row h2 {
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 50px;
+  margin-right: auto;
+}
+
+.mylist-header h2{
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 5.5%;
+  
+  margin-right: auto;
+}
+
+.layout-title h2{
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-right: auto;
+}
+
+.similar-header h2{
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 4%;
+  margin-top: 10%;
+  margin-right: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

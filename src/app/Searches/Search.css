@@ -1,0 +1,152 @@
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.label {
+  font-size: .625rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: +1.3px;
+  margin-bottom: 1rem;
+}
+
+.searchBar {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  padding: 25px;
+}
+
+#searchQueryInput {
+  width: 100%;
+  height: 2.8rem;
+  background: #f5f5f5;
+  outline: none;
+  border: none;
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 1rem;
+}
+
+#searchQuerySubmit {
+  width: 3.5rem;
+  height: 2.8rem;
+  margin-left: -3.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#searchQuerySubmit:hover {
+  cursor: pointer;
+}
+
+.results{
+  display: flex;
+  margin-left: 4%;
+  margin-right: 5%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.results::-webkit-scrollbar {
+  width: 0px;
+}
+
+.results::-webkit-scrollbar-button {
+  width: 150px;
+}
+
+.results::-webkit-scrollbar-thumb:hover {
+  background: rgb(15, 32, 39);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border-radius: 100px;
+
+}
+
+
+
+.results2 {
+  display: flex;
+  margin-left: 4%;
+  margin-right: 5%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.results2::-webkit-scrollbar {
+  width: 0px;
+}
+
+.results2::-webkit-scrollbar-button {
+  width: 150px;
+}
+
+.results2::-webkit-scrollbar-thumb:hover {
+  background: rgb(15, 32, 39);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border-radius: 100px;
+
+}
+
+.results3{
+  flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 5%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    grid-row-gap: 9vh;
+    justify-content: left;
+    margin-bottom: 10%;
+}
+
+.results3::-webkit-scrollbar {
+  width: 0px;
+}
+
+.results4{
+  flex-wrap: wrap;
+  margin-left:5%;
+  margin-right:5%;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  grid-row-gap: 3rem;
+  justify-content: center;
+}
+
+.results4::-webkit-scrollbar {
+  width: 0px;
+}
+
+.post_custom {
+  object-fit: contain;
+  width: 24vh;
+  height: calc(24vh * (16/9));
+  transition: transform 450ms;
+}
+
+@media(max-width: 990px) {
+  .post_custom {
+    object-fit: contain;
+    width: 15vh;
+    height: calc(15vh * (16/9));
+    transition: transform 450ms;
+  }
+
+  .row h2{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 6%;
+    margin-right: 6%;
+    
+  }
+
+  p{
+    font-size: 0.9rem;
+  }
+}
